@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom"
+import {Link} from "react-router-dom"
 
 function Navbar() {
+
     return (
         <div className='w-full bg-[#175d24] text-white flex justify-center py-4'>
                 <div className="container flex justify-between text-lg">
@@ -8,8 +9,7 @@ function Navbar() {
 
                     <div className='flex gap-4'>
                         <Link to='/categorias' className='hover:underline'>Categorias</Link>
-                        <Link to='/produtos' className='hover:underline'>Produtos</Link>
-                        Sair
+                        <Link to='/cadastrarcategoria' className='hover:underline'>Cadastrar Categoria</Link>
                     </div>
                 </div>
             </div>
